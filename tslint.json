@@ -71,6 +71,7 @@
     "match-default-export-name": false,
     "new-parens": true,
     "no-consecutive-blank-lines": true,
+    "no-implicit-dependencies": false,
     "no-irregular-whitespace": true,
     "no-reference-import": true,
     "no-trailing-whitespace": true,
