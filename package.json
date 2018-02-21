@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build:watch": "webpack-dev-server --config webpack.config.js --colors --progress --hot",
-    "build": "webpack",
+    "watch": "webpack-dev-server --config webpack.config.js --colors --progress --hot",
+    "build": "set NODE_ENV=production || export NODE_ENV=production && webpack --progress --color",
     "lint": "tslint -p tsconfig.json --format stylish",
-    "sasslint": "sass-lint -c .sass-lint.yml --no-exit -v"
+    "sasslint": "sass-lint -c .sass-lint.yml --no-exit -v",
+    "prewatch": "webpack --progress --color"
   },
   "author": "",
   "license": "ISC",
