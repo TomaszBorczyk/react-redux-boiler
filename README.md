@@ -11,12 +11,7 @@ npm i -g webpack webpack-dev-server yarn typescript sass-lint tslint
 yarn
 ```
 
-### Build
-```
-yarn build
-```
-
 ### Hot modules watch
 ```
-yarn build:watch
+yarn watch
 ```
