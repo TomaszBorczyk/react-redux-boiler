@@ -74,7 +74,7 @@
     "no-implicit-dependencies": false,
     "no-irregular-whitespace": true,
     "no-reference-import": true,
-    "no-trailing-whitespace": true,
+    "no-trailing-whitespace": false,
     "number-literal-format": true,
     "object-literal-shorthand": true,
     "object-literal-sort-keys": false,

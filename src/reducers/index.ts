@@ -1,3 +1,7 @@
 import { combineReducers } from 'redux';
 
-export default combineReducers({});
+import {hello} from '../components/smart/HelloButton/helloButton.duck';
+
+export default combineReducers({
+  hello
+});
